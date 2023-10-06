@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Tracker</title>
+  </head>
+
+  <body>
+    <form action="/getprices" method="post">
+      <label for="high_price">Enter High Price for when you want to be notified (must be higher than {{ current_price }}):</label>
+      <input type="text" id="high_price" name="high_price" /><br /><br />
+
+      <label for="low_price">Enter Low Price for when you want to be notified (must be lower than {{ current_price }}):</label>
+      <input type="text" id="low_price" name="low_price" /><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
