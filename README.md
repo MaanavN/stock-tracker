@@ -6,6 +6,8 @@ The code is constantly checking the stock price by using the yfinance library so
 
 Make sure to change all "CHANGE ME"s within the code before running. The API key and and phone-number can be obtained from Twilio's website after signing up for free.
 
+Install dependencies: python3 -m pip install -r requirements.txt
+
 To run the cli version of the code: python3 stocktracker-cli.py
 
 To run the webapp: python3 webapp/app.py
